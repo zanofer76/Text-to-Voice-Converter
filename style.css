@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(315deg, rgb(78, 75, 75), black, rgb(78, 75, 75));
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+}
+.hero h1 {
+  font-size: 60px;
+  font-weight: 650;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.hero h1 span {
+  color: rgb(255, 0, 85);
+}
+textarea {
+  width: 700px;
+  height: 300px;
+  background: #746f79c0;
+  border: 0;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  resize: none;
+  outline: 0;
+  color: white;
+  font-weight: 300;
+}
+
+.row {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  background: rgb(255, 0, 85);
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 35px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+button img {
+  width: 20px;
+  height: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+select {
+  flex: 1;
+  color: white;
+  background: #746f79c0;
+  border-radius: 35px;
+  height: 45px;
+  font-size: 20px;
+  outline: 0;
+  border: 0;
+  padding: 0px 20px;
+  appearance: none;
+  background-image: url("./images/dropdown.jpg");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: right;
+  cursor: pointer;
+}
